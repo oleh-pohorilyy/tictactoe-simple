@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic tac toe</title>
+  <script src="game.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="title">Turn X</div>
+
+  <div class="game">
+    <div class="player player-x active"></div>
+
+    <div id="board">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <svg class="win-line">
+        <line x1="0" y1="0" x2="0" y2="0" style="stroke:black;stroke-width: 2;"/>
+      </svg>
+    </div>
+
+    <div class="player player-o"></div>
+  </div>
+
+</body>
+</html>
